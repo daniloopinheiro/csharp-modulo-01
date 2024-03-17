@@ -8,6 +8,8 @@ class Program
 
         string diaEmTexto = dia.ToString("dd/MMMM/yyyy", new CultureInfo("pt-BR"));
 
-        Console.WriteLine(dia);
+        DateTime dia1 = new DateTime(2023, 12, 1);
+
+        Console.WriteLine(dia1);
     }
 }
