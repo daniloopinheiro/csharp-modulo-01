@@ -11,6 +11,13 @@ class Program
 
         string paragrafo2 = $"A primeira frase. {7} {true} segunda frase.";
 
-        Console.WriteLine(paragrafo2);
+        StringBuilder stringBuilder = new StringBuilder();
+
+        stringBuilder.Append(paragrafo);
+        stringBuilder.Append(paragrafo2);
+
+        string resultado = stringBuilder.ToString();
+
+        Console.WriteLine(resultado);
     }
 }
