@@ -11,7 +11,7 @@ class Program
 
         string texto = "Este curso é muito bom";
         
-        bool existe = texto.Equals("curso");
+        bool existe = texto.Equals("Este curso é muito bom");
 
         Console.WriteLine(existe);
     }
