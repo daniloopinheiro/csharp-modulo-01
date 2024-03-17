@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        DataOnly dia = new DataOnly();
+        DataOnly dia = new DataOnly(2023, 12, 1);
 
         Console.WriteLine(dia);
     }
