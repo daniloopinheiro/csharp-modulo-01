@@ -4,8 +4,10 @@ class Program
 {
     static void Main()
     {
-        string texto = "O usuario Welisson gosta do numero 7";
+        string texto = "O usuario {0} gosta do numero {1}";
 
-        Console.WriteLine(texto);
+        string resultado = string.Format(texto, "Welisson", 7);
+
+        Console.WriteLine(resultado);
     }
 }
