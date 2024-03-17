@@ -10,7 +10,7 @@ class Program
 
         DateTime dia1 = new DateTime(2023, 12, 1, 20, 07, 1);
 
-        DateTime hoje = DateTime.Now;
+        DateTime hoje = DateTime.Today;
 
         Console.WriteLine(hoje);
     }
