@@ -15,8 +15,8 @@ class Program
         string meuNome = "            Wellison Arley             ";
         string nomeSemEspaco = meuNome.Trim();
 
-        bool comecaComALetraW = nomeSemEspaco.StartsWith("W");
+        string textoAposReplace = nomeSemEspaco.Replace('e','7');
 
-        Console.WriteLine(comecaComALetraW);
+        Console.WriteLine(textoAposReplace);
     }
 }
