@@ -1,6 +1,4 @@
-﻿using HelloWorld.Teste;
-
-namespace HelloWorld;
+﻿namespace HelloWorld;
 
 class Program
 {
@@ -12,8 +10,7 @@ class Program
 
         meuCarro.Desligar();
 
-        Biscoito meuBiscoito = new Biscoito();
-
-        meuBiscoito.Temperatura();
+        meuCarro.Teste2();
+        
     }
 }
