@@ -4,15 +4,11 @@ class Program
 {
     static void Main()
     {
-        char letra = 'a';
-        char numero = '1';
-        char caracter = '@';
-        char espaco = ' ';
+        string texto1 = "A primeira frase.";
+        string texto2 = "Segunda frase";
 
-        string texto = "Este curso é muito bom";
-        
-        bool existe = texto.Equals("Este curso é muito bom");
+        string paragrafo = texto1 + texto2;
 
-        Console.WriteLine(existe);
+        Console.WriteLine(paragrafo);
     }
 }
