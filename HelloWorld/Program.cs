@@ -4,13 +4,13 @@ class Program
 {
     static void Main()
     {
-        Carro meuCarro = new Carro();
+        int numero = 7;
+        
+        long numero2 = 7;
 
-        meuCarro.Ligar();
+        uint numero3 = 7;
 
-        meuCarro.Desligar();
-
-        meuCarro.Teste2();
+        Console.WriteLine(numero3);
         
     }
 }
