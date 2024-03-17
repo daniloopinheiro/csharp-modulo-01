@@ -7,7 +7,7 @@ class Program
         string texto1 = "A primeira frase.";
         string texto2 = "Segunda frase";
 
-        string paragrafo = texto1 + " " + 7 + true + texto2;
+        string paragrafo = texto1 + " " + 7 + " " + true + " " + texto2;
 
         Console.WriteLine(paragrafo);
     }
