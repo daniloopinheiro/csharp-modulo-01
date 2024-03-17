@@ -10,13 +10,9 @@ class Program
         char espaco = ' ';
 
         string texto = "Este curso é muito bom";
-        char primeiraLetraDoTexto = texto[0];
+        
+        bool existe = texto.Contains('wellison');
 
-        string meuNome = "            Wellison Arley             ";
-        string nomeSemEspaco = meuNome.Trim();
-
-        string textoAposReplace = nomeSemEspaco.Replace('e','7');
-
-        Console.WriteLine(textoAposReplace);
+        Console.WriteLine(existe);
     }
 }
