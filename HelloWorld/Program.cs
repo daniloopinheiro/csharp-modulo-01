@@ -9,7 +9,7 @@ class Program
 
         string paragrafo = texto1 + " " + 7 + " " + true + " " + texto2;
 
-        string caminho = "C:\\teste\\outrapasta\\welisson\\pasta1";
+        string caminho = @"C:\teste";
 
         Console.WriteLine(paragrafo);
     }
