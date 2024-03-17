@@ -4,13 +4,10 @@ class Program
 {
     static void Main()
     {
-        int numero = 7;
-        
-        long numero2 = 7;
+        double numero1 = 3.14;
+        float numero2 = 0.14f;
+        decimal numero3 = 3.14m;
 
-        uint numero3 = 7;
-
-        Console.WriteLine(numero3);
-        
+        Console.WriteLine(numero3);        
     }
 }
