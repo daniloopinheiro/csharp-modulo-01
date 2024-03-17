@@ -1,1 +1,5 @@
-﻿namespace HelloWorld;
+﻿﻿﻿namespace HelloWorld;
+
+class Usuario
+{
+}
