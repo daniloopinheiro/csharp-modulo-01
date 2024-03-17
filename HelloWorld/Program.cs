@@ -10,8 +10,11 @@ class Program
 
         DateTime dia1 = new DateTime(2023, 12, 1, 20, 07, 1);
 
-        DateTime hoje = DateTime.Today;
+        DateTime hoje = DateTime.UtcNow;
+
+        DateTime novaData = hoje.AddDays(1);
 
         Console.WriteLine(hoje);
+        Console.WriteLine(novaData);
     }
 }
