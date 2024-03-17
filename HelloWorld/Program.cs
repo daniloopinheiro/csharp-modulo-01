@@ -8,7 +8,7 @@ class Program
 
         string diaEmTexto = dia.ToString("dd/MMMM/yyyy", new CultureInfo("pt-BR"));
 
-        DateTime dia1 = new DateTime(2023, 12, 1);
+        DateTime dia1 = new DateTime(2023, 12, 1, 20, 07, 1);
 
         Console.WriteLine(dia1);
     }
