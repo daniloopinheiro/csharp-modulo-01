@@ -4,15 +4,14 @@ class Program
 {
     static void Main()
     {
-        List<string> strings = new List<string>();
+        Dictionary<string, int> dicionario = new Dictionary<string, int>();
 
-        strings.Add("Hello");
-        strings.Add("Mundo");
-        strings.Add("Welisson");
-        strings.Add("Arley");
+        dicionario.Add("welisson", 1);
+        dicionario.Add("Edilaine", 0);
+        dicionario.Add("Willian", 7);
 
-        string resultado = string.Join("Oi", strings);
+        bool existe = dicionario.ContainsKey("Welisson");
 
-        Console.WriteLine(resultado);
+        Console.WriteLine(existe);
     }
 }
