@@ -4,8 +4,8 @@ class Program
 {
     static void Main()
     {
-        var minhaVariavel = new Carro();
+        int? idade = null;
 
-        minhaVariavel.
+        bool informouIdade = idade.HasValue;
     }
 }
