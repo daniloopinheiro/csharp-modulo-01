@@ -4,15 +4,15 @@ class Program
 {
     static void Main()
     {
-        List<int> inteiros = new List<int>();
+        List<string> strings = new List<string>();
 
-        inteiros.Add(1);
-        inteiros.Add(2);
+        strings.Add("Hello");
+        strings.Add("Mundo");
+        strings.Add("Welisson");
+        strings.Add("Arley");
 
-        inteiros.Remove(0);
+        string resultado = string.Join("Oi", strings);
 
-        inteiros.Clear();
-
-        Console.WriteLine(inteiros.Count);
+        Console.WriteLine(resultado);
     }
 }
