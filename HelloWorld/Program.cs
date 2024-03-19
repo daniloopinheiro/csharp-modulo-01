@@ -2,19 +2,20 @@
 
 class Program
 {
+    enum NivelDeDificuldade
+    {
+        Baixo = 0,
+        Medio = 1,
+        Alto = 2
+    }
+
     static void Main()
     {
-        DataOnly dia = new DataOnly(2023, 12, 1);
+        NivelDeDificuldade nivel = NivelDeDificuldade.Alto;
 
-        string diaEmTexto = dia.ToString("dd/MMMM/yyyy", new CultureInfo("pt-BR"));
+        int nivelInteiro = (int)nivel;
 
-        DateTime dia1 = new DateTime(2023, 12, 1, 20, 07, 1);
-
-        DateTime hoje = DateTime.UtcNow;
-
-        DateTime novaData = hoje.AddDays(1);
-
-        Console.WriteLine(hoje);
-        Console.WriteLine(novaData);
+        Console.WriteLine(nivel);
+        Console.WriteLine(nivelInteiro);
     }
 }
