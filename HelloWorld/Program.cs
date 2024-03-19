@@ -4,12 +4,8 @@ class Program
 {
     static void Main()
     {
-        List<int> set = new List<int>();
+        var matematica = new OperacoesMatematicas();
 
-        set.Add(1);
-        set.Add(2);
-        set.Add(1);
-
-        Console.WriteLine(set.Count);
+        matematica.Subtrair(7, 1);
     }
 }
