@@ -1,1 +1,3 @@
-# Fundamentos Do C-Sharp
+# Rocketseat journey c-sharp
+
+- Fundamentos Do C-Sharp
