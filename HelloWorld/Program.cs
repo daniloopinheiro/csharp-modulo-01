@@ -4,8 +4,18 @@ class Program
 {
     static void Main()
     {
-        var matematica = new OperacoesMatematicas();
+        var carro = new Carro("Lamborghino")
+        {
+            LancadoEm = new DateOnly(2021, 01, 01),
+            Cor = Cor.Azul
+        };
 
-        matematica.Teste(valor1: 2, valor2: 1, autor: "Wellian");
+        var carro2 = new Carro("Porche")
+        {
+            LancadoEm = new DateOnly(2019, 01, 01),
+            Cor = Cor.Vermelho
+        };
+
+        carro.NomeDoModelo();
     }
 }
