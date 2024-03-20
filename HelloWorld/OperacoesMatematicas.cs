@@ -8,4 +8,10 @@ public class OperacoesMatematicas
 
         return (resultado, "Welisson");
     }
+
+    public void Teste(int valor1, int valor2 = 7, string autor = "welisson")
+    {
+        Console.WriteLine(valor1 + valor2);
+        Console.WriteLine(autor);
+    }
 }

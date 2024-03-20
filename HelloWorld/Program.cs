@@ -6,9 +6,6 @@ class Program
     {
         var matematica = new OperacoesMatematicas();
 
-        (int resultado, string nome) = matematica.Adicionar(7, 3);
-
-        Console.WriteLine(resultado);
-        Console.WriteLine(nome);
+        matematica.Teste(valor1: 2, valor2: 1, autor: "Wellian");
     }
 }
