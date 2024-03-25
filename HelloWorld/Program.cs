@@ -26,9 +26,9 @@ class Program
         == Igualdade
        */
 
-       if (cor == Cores.Amarelo)
-       {
+        if(numero == 0 && (saldo > 100.0) || ativo)
+        {
             Console.WriteLine("ENTROUUU");
-       }
+        }
     }
 }
