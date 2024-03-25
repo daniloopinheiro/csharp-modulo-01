@@ -4,10 +4,16 @@ class Program
 {
     static void Main()
     {
-       int numero = 0;
+       int numero = 8;
 
-       string autor = numero = 7 || numero > 100 ? "welisson" : "willian";
+       string resultado = numero switch
+       {
+            7 => "Welisson",
+            1 => "Willian",
+            3 => "Edilaine",
+            _ => "Nome desconhecido"
+       }
 
-       Console.WriteLine(autor);
+       Console.WriteLine(resultado);
     }
 }
